@@ -1,0 +1,30 @@
+[0m21:30:10.364384 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000221ED431410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000221ED2F8C10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000221ED279810>]}
+
+
+============================== 21:30:10.368994 | 8ea53735-1278-484e-b075-d8fc9a033e46 ==============================
+[0m21:30:10.368994 [info ] [MainThread]: Running with dbt=1.6.5
+[0m21:30:10.370067 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\arthu\\.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init ProjetoAE', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m21:30:10.371071 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': WindowsPath('C:/Users/arthu/.dbt')}
+[0m21:30:10.372287 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m21:30:10.373799 [debug] [MainThread]: Starter project path: C:\Users\arthu\anaconda3\Lib\site-packages\dbt\include\starter_project
+[0m21:30:10.403738 [info ] [MainThread]: 
+Your new dbt project "ProjetoAE" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:30:10.404741 [info ] [MainThread]: Setting up your profile.
+[0m21:30:17.282008 [info ] [MainThread]: Profile ProjetoAE written to C:\Users\arthu\.dbt\profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m21:30:17.283009 [debug] [MainThread]: Command `dbt init` succeeded at 21:30:17.283009 after 6.94 seconds
+[0m21:30:17.283009 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000221ED2F8690>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000221E69B7850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000221E69B78D0>]}
+[0m21:30:17.284013 [debug] [MainThread]: Flushing usage events
